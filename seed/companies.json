@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "E Market BD",
+    "icon": "",
+    "logo": "http://localhost:8084/public/company/emarket-bd/logo.png",
+    "code": "emarket-bd",
+    "email": "support@emarket-bd.com",
+    "phoneNo": "+8801710000000",
+    "location": "29/A, greenroad<br/>Farmgate, Dhaka.<br/>",
+    "header": "Find what you need here",
+    "motive": "emarket-bd is just a software project. It is developed to learn how to build a web application. I've included all these data from the internet from different kind of source. And this is not a real ecommerce site.",
+    "details": "Large text here. about the emarket-bd"
+  },
+  {
+    "id": 2,
+    "name": "SUPER MARKET",
+    "icon": "",
+    "logo": "",
+    "code": "supermarket",
+    "email": "support@supermarket.com",
+    "phoneNo": "+8801700000000",
+    "location": "29/D, Sahid Sarak<br/>Farmgate, Dhaka.<br/>",
+    "header": "Find what you need here",
+    "motive": "SUPER MARKET sub title here",
+    "details": "Large text here. about SUPER MARKET"
+  }
+]
