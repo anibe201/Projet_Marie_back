@@ -16,30 +16,30 @@ module.exports = {
             switch (validate.error.details[0].context.key) {
                 case 'firstName':
                     res.status(400).send({
-                        error: `first name can have 2-32 characters`
+                        error: `Le prénom dois contenir entre 2 et 32 charactères`
                     })
                     break
                 case 'lastName':
                     res.status(400).send({
-                        error: `last name can have 2-32 characters`
+                        error: `Le nom dois contenir entre 2 et 32 charactères`
                     })
                     break
                 case 'email':
                     res.status(400).send({
-                        error: 'please provide a valid email address'
+                        error: "S'ils vous plaît entré un email valide "
                     })
                     break
                 case 'password':
                     res.status(400).send({
-                        error: `Invalid password format<br>
-                            Only lower case, upper case and numerics is allowed.
+                        error: `Format de mot de passe invalide<br>
+                        Seuls les minuscules, les majuscules et les chiffres sont autorisés.
                         `
                     })
                     break
                 default:
                     console.log(validate)
                     res.status(400).send({
-                        error: 'Invalid error in authentication controller.'
+                        error: "Erreur non valide dans le contrôleur d'authentification."
                     })
             }
         } else {
@@ -57,13 +57,13 @@ module.exports = {
             switch (validate.error.details[0].context.key) {
                 case "password":
                     res.status(400).send({
-                        error: 'Invalid password format. Only lower case, upper case and numerics is allowed.'
+                        error: 'Format de mot de passe invalide. Seuls les minuscules, les majuscules et les chiffres sont autorisés.'
                     })
                     break;
                 default:
                     console.log(validate)
                     res.status(400).send({
-                        error: 'Invalid error in authentication controller.'
+                        error: "Erreur non valide dans le contrôleur d'authentification."
                     })
             }
         } else {
